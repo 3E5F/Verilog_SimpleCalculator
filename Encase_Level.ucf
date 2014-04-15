@@ -1,0 +1,28 @@
+#Encase_Level UCF
+
+NET Go_top LOC = H13;
+
+NET dataIn<0> LOC = G18;
+NET dataIn<1> LOC = H18;
+NET dataIn<2> LOC = K18;
+
+NET rst LOC = E18;
+
+NET Done LOC = J14;
+
+NET ledout<0> LOC = D16;
+NET ledout<1> LOC = D17;
+NET ledout<2> LOC = G14;
+NET ledout<3> LOC = H14;
+NET ledout<4> LOC = F18;
+NET ledout<5> LOC = J17;
+NET ledout<6> LOC = L18;
+NET ledout<7> LOC = C17;
+
+NET ledsel<0> LOC = F17;
+NET ledsel<1> LOC = H17;
+NET ledsel<2> LOC = C18;
+NET ledsel<3> LOC = F15;
+
+
+NET clk50MHz LOC = B8; # ON BOARD CLOCK WITH 50 MHz

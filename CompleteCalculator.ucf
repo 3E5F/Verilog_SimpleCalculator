@@ -1,0 +1,31 @@
+NET Go_top LOC = H13;
+
+NET in1<0> LOC = G18; 
+NET in1<1> LOC = H18;
+NET in1<2> LOC = K18;
+
+NET in2<0> LOC = K17; 
+NET in2<1> LOC = L14;
+NET in2<2> LOC = L13;
+
+NET Op<0> LOC = N17;
+NET Op<1> LOC = R17; 
+
+NET Done LOC = J14; 
+NET rst LOC = E18; 
+
+NET ledout<0> LOC = D16;
+NET ledout<1> LOC = D17;
+NET ledout<2> LOC = G14;
+NET ledout<3> LOC = H14;
+NET ledout<4> LOC = F18;
+NET ledout<5> LOC = J17;
+NET ledout<6> LOC = L18;
+NET ledout<7> LOC = C17;
+
+NET ledsel<0> LOC = F15;
+NET ledsel<1> LOC = C18;
+NET ledsel<2> LOC = H17;
+NET ledsel<3> LOC = F17;
+
+NET clk50MHz LOC = B8; # ON BOARD CLOCK WITH 50 MHz
